@@ -2,6 +2,10 @@
   "name": "sampletest",
   "version": "0.1.0",
   "description": "A simple template for a custom React component library",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anmdsystems/test-component-library.git"
+  },
   "scripts": {
     "rollup": "rollup -c",
     "test": "jest"
