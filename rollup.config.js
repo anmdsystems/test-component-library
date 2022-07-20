@@ -14,12 +14,14 @@ export default [
         file: packageJson.main,
         format: "cjs",
         sourcemap: true,
+        globals: { react: 'react' }
       },
       {
         file: packageJson.module,
         format: "esm",
         sourcemap: true,
-      },
+        globals: { react: 'react' }
+      }    
     ],
     plugins: [
       resolve(),
