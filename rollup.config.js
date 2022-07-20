@@ -22,6 +22,13 @@ export default [
         format: "esm",
         sourcemap: true,
       },
+      {
+        file: 'dist/umd/index.umd.min.js',
+        format: "umd",
+        sourcemap: true,
+        name: 'sampletest',
+        exports: 'named'
+      },
     ],
     plugins: [
       babel({
